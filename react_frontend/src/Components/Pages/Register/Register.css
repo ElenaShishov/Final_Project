@@ -1,0 +1,28 @@
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  select:focus {
+    border-color: #4caf50;
+  }
+  
+  /* Style the options inside the select dropdown */
+  select option {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
