@@ -1,0 +1,27 @@
+.MainLayout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10% 87% 3%;
+    grid-template-columns: repeat(6,1fr);
+
+	
+}
+.MainLayout>header,
+.MainLayout>footer{
+    grid-column: span 6;
+
+
+}
+.MainLayout>main{
+    grid-column: span 5;
+
+}
+.MainLayout,
+.MainLayout > * {
+    border: 1px solid rgb(45, 184, 222);
+    overflow: auto
+    ;
+
+}
+
